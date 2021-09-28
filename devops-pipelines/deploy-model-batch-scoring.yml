@@ -10,12 +10,12 @@ pool:
 resources:
   repositories:
     - repository: templates-mlops  # Template Repo
-      name: ai-factory-azure/templates-mlops
-      endpoint: ai-factory-azure
+      name: pacolecc/templates-mlops
+      endpoint: pacolecc
       type: github
     - repository: project-code  # Code Repo
-      name: ai-factory-azure/project-template-file-batch-code
-      endpoint: ai-factory-azure
+      name: pacolecc/project-template-file-batch-code
+      endpoint: pacolecc
       type: github
 
 stages:
